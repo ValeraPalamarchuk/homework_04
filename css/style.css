@@ -47,3 +47,13 @@ a {
     background-color: chocolate;
     color:white;
 }
+
+img{
+    width: 800px;
+    height: 800px;
+}
+
+li{
+    list-style: circle;
+    background-color: aqua;
+}
