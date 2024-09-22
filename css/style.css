@@ -1,0 +1,44 @@
+/* Селектор для p, вкладених у div */
+div > p {
+    background-color: yellow;
+}
+
+/* Селектор класу */
+.red-text {
+    color: red;
+}
+
+/* Селектор id */
+#unique {
+    color: orange;
+}
+
+/* Комбінація тегу і класу */
+p.blue-text {
+    color: blue;
+}
+
+/* Селектор атрибута */
+[data-info="example"] {
+    color: green;
+}
+
+/* Вкладений селектор */
+div.wrapper p {
+    color: purple;
+}
+
+/* Дочірній селектор */
+div.parent > p {
+    color: brown;
+}
+
+/* Послідовність селекторів */
+div.container p.text {
+    color: pink;
+}
+
+/* Селектор тегу */
+a {
+    color: black;
+}

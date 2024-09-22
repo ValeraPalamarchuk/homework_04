@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>homeword_04</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div>
+        <p>Застосовується до тегів p, вкладених у div, на першому рівні, вага 0-1-0 (1 клас)</p>
+    </div>
+
+    <p class="red-text">Селектор класу, вага 0-1-0</p>
+    <p id="unique">Селектор id, вага 1-0-0</p>
+    <p class="blue-text">Тег p з класом, вага 0-1-0</p>
+    <p class="green-text" data-info="example">Атрибут data-info, вага 0-1-1</p>
+    <div class="wrapper">
+        <p>Вкладений селектор: div.wrapper p, вага 0-1-1</p>
+    </div>
+    <div class="parent">
+        <p>Дочірній селектор: div.parent > p, вага 0-1-1</p>
+    </div>
+    <div class="container">
+        <p class="text">Послідовність селекторів: div.container p.text, вага 0-2-1</p>
+    </div>
+    <a href="#">Селектор тегу a, вага 0-0-1</a>
+</body>
+</html>
