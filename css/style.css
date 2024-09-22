@@ -1,6 +1,6 @@
 /* Селектор для p, вкладених у div */
 div > p {
-    background-color: yellow;
+    background-color: blue;
 }
 
 /* Селектор класу */
